@@ -1,0 +1,185 @@
+body {
+    background-color: #112;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    color: white;
+    font-family: serif;
+    font-size: 250%;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 7rem;
+    text-decoration: underline white;
+    box-shadow: black 5px 5px 5px;
+    border: black solid;
+    height: 3rem;
+    width: 18rem;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2 {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    margin-bottom: 22rem;
+}
+
+.loginBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 50rem;
+    height: 25rem;
+    border: solid black 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 3px 3px 3px;
+    background-color: #223;
+}
+
+.lEntry {
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+    background-color: #223;
+    box-shadow: none;
+    color: white;
+    font-size: 1rem;
+}
+.lEntry:hover,
+.lEntry:focus,
+.lEntry:active {
+    background-color: #112;
+}
+
+.pEntry {
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+    background-color: #223;
+    box-shadow: none;
+    color: white;
+    font-size: 1rem;
+}
+.pEntry:hover,
+.pEntry:active,
+.pEntry:focus {
+    background-color: #112;
+}
+
+.forgotpass {
+    text-align: center;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+}
+.forgotpass:hover,
+.forgotpass:active,
+.forgotpass:focus {
+    color: floralwhite;
+}
+
+.reglink {
+    text-align: center;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+}
+
+.reglink:hover,
+.reglink:active,
+.reglink:focus {
+    color:floralwhite;
+}
+
+.entries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbutton {
+    background-color: #223;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+.lbutton:hover {
+    background-color: #112;
+}
+
+.nav {
+    border: solid black;
+    box-shadow: black 3px 3px 3px;
+    border-radius: 15px;
+    background-color: #223;
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem;
+    float: left;
+    margin-top: -15%;
+}
+ul {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+}
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+li + li {
+    margin-top: .75rem;
+}
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: transparent;
+}
+i {
+    font-size: 200%;
+}
+li:active,
+li:focus,
+li:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
